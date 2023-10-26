@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -26,7 +26,7 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to right bottom, rgba(94, 122, 247, 0.74), rgba(182, 201, 229, 0.795)), url("./img/uc.jpg");
+    background-image: linear-gradient(to right bottom, rgba(3, 29, 145, 0.74), rgba(0, 3, 7, 0.795)), url("./img/uc.jpg");
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -35,11 +35,27 @@ body {
     align-items: center;
 }
 
+.under-construction img {
+    filter: brightness(0) invert(1);
+    width: 50vw;
+}
 
-.under-construction {
+
+.under-construction h1 {
     color: rgb(255, 255, 255); 
-    font-size: 6rem;
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    text-align: center;
 
+}
+
+.under-construction p {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom:1rem;
 }
 
 @media only screen and (max-width: 600px){
